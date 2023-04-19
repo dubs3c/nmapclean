@@ -50,4 +50,4 @@ v@netrunner:~/project/scan$ grep -E "Host: ([0-9\.]{7,15}).+Ports:.+([0-9]{1,5})
 If you don't want `tcpwrapped` ports, you can do something like:
 ```
 $ grep -E "/open/" *.og | grep -wv "tcpwrapped" | nmapclean
-``
+```

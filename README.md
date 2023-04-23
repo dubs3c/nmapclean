@@ -2,6 +2,12 @@
 
 You have a bunch of scan data from nmap in `-oG` format and you want to get a list in the format of `IP:PORT`, and your bash pipeline is getting so out of hand that you start questioning reality...
 
+## Install
+
+```
+go install github.com/dubs3c/nmapclean@latest
+```
+
 ## Usage
 Convert this:
 ```
